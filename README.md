@@ -4,19 +4,25 @@ This project focuses on performing customer segmentation analysis for an FMCG st
 
 ## Table of Contents
 
--⁠  ⁠[Installation](#installation)
--  ⁠[About the Project](#about-the-project)
--  ⁠[Data Gathering](#data-gathering)
--  ⁠[File Description](#file-description)
+<ul>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#about-the-project">About the Project</a></li>
+    <li><a href="#data-gathering">Data Gathering</a></li>
+    <li><a href="#file-description">File Description</a></li>
+</ul>
+
 
 ## Installation
 
 To run the code, you need the following:
 
--⁠  ⁠Python 3 and above
--  ⁠pandas
--  ⁠sklearn
--  ⁠PowerBI Desktop (for visualization purposes)
+<ul>
+    <li>⁠Python 3 and above</li>
+    <li>pandas</li>
+    <li>sklearn</li>
+    <li>⁠PowerBI Desktop (for visualization purposes)</li>
+</ul>
+
 
 ## About the Project
 
@@ -33,6 +39,7 @@ The data was sourced from Kaggle's extensive repository of datasets.
 ## File Description
 
 The folder contains the following:
--⁠⁠ Datasets ⁠: This folder contains the original dataset and the dataset generated after creating the clustering model, which served as an input for the PowerBI dashboard.
+
+- ⁠⁠Datasets ⁠: This folder contains the original dataset and the dataset generated after creating the clustering model, which served as an input for the PowerBI dashboard.
 - customer.ipynb ⁠: A Jupyter notebook detailing the creation of the clustering model.
 - Customer Segmentation.pbix ⁠: The PowerBI dashboard created from the analysis. This file should be opened with PowerBI Desktop.
